@@ -22,22 +22,20 @@ input[type="button"]{
 	font-size: 20px;
 	border-radius: 20px;
 }
-#par{
-	font-size: 20px;
-}
+
 #foo{
 	color: rgb(106, 177, 235);
-	font-size: 25px;
+	font-size: 35px;
 	text-decoration: underline;
 }
 #A{
 	color: rgb(129, 238, 129);
-	font-size: 25px;
+	font-size: 35px;
 	text-decoration: underline;
 }
 #U{
 	color: rgb(114, 121, 114);
-	font-size: 25px;
+	font-size: 35px;
 	text-decoration: underline;
 }
 #T{
