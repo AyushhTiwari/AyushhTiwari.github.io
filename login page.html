@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Instagram Login</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #fafafa;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        .login-container {
+            background-color: #fff;
+            border: 1px solid #e7e7e7;
+            border-radius: 5px;
+            width: 350px;
+            padding: 20px;
+            text-align: center;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        .instagram-logo {
+            width: 180px;
+            margin: 0 auto 20px;
+        }
+
+        .input-container {
+            margin: 10px 0;
+        }
+
+        input {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #e7e7e7;
+            border-radius: 3px;
+            background-color: #f9f9f9;
+        }
+
+        button {
+            width: 100%;
+            padding: 10px;
+            background-color: #3897f0;
+            color: #fff;
+            border: none;
+            border-radius: 3px;
+            cursor: pointer;
+        }
+
+        .or-divider {
+            margin: 20px 0;
+            text-align: center;
+            position: relative;
+        }
+
+        .or-divider::before {
+            content: "";
+            border-top: 1px solid #e7e7e7;
+            position: absolute;
+            top: 50%;
+            left: 0;
+            right: 0;
+        }
+
+        .or-text {
+            background-color: #fafafa;
+            padding: 0 10px;
+            position: relative;
+            z-index: 1;
+        }
+
+        .signup-link {
+            margin: 10px 0;
+            color: #3897f0;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="login-container">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT3wHnShI890dvFjZ8-Wqno5FQpWIWnZaCf495c9cTpgg&s" alt="Instagram Logo" class="instagram-logo">
+        <div class="input-container">
+            <input type="text" placeholder="Username or Email">
+        </div>
+        <div class="input-container">
+            <input type="password" placeholder="Password">
+        </div>
+        <button>Login</button>
+        <div class="or-divider">
+            <span class="or-text">OR</span>
+        </div>
+        <a href="#" class="signup-link">Sign up for Instagram</a>
+    </div>
+</body>
+</html>
